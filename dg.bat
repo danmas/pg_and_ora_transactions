@@ -9,3 +9,7 @@ set DRAKON_GEN="drakongen.jar"
 
 #java -jar %DRAKON_GEN% %BASE_DIR% %2 
 java -jar %DRAKON_GEN% . transaction_in_postgres.graphml  
+
+copy PG\*.* ..\CARLINKS\CarlinkNG\db\tmp\Trans\PG\
+copy OR\*.* ..\CARLINKS\CarlinkNG\db\tmp\Trans\OR\
+
