@@ -1,5 +1,5 @@
 # pg_and_ora_transactions
-## Генератор скриптов для понимания механизмов транзакций в Oracl и PostgreSQL
+## Генератор скриптов для понимания механизмов транзакций в Oracle и PostgreSQL
 
 ![Схема в редакторе yEd](https://github.com/danmas/pg_and_ora_transactions/blob/master/screenshots/Image_1_small.png)
 
