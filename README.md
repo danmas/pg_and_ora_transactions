@@ -1,4 +1,5 @@
 # pg_and_ora_transactions
+## Генератор скриптов для понимания механизмов транзакций в Oracl и PostgreSQL
 
 ![top_pic1](https://github.com/danmas/pg_and_ora_transactions/blob/master/screenshots/Image_1_small.png)
 
