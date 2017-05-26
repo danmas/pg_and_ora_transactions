@@ -17,13 +17,6 @@
 	-- UPDATE -
 	select to_char(timeofday()::timestamp, 'HH24:MI:SS')||' -- UPD -> V_3';
 update trans_test set name = 'V_3' where id = 1; 
-	-- 12 s
-	SELECT pg_sleep(12); 
-	-- SELECT -
-	select to_char(timeofday()::timestamp, 'HH24:MI:SS'),name from trans_test where id = 1; 
-	-- COMMIT;
-	select to_char(timeofday()::timestamp, 'HH24:MI:SS')||' -- COM';
-commit; 
 	-- --             
 	
 
