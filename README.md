@@ -6,5 +6,6 @@
 
 ![Процесс выполнения скриптов](https://github.com/danmas/pg_and_ora_transactions/blob/master/screenshots/Image_2.png)
 
+![Repeatable read](https://github.com/danmas/pg_and_ora_transactions/blob/master/screenshots/RR_1.png)
 
 [как редактировать readme.md](http://webdesign.ru.net/article/pravila-oformleniya-fayla-readmemd-na-github.html)
