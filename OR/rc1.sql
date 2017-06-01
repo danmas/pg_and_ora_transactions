@@ -1,7 +1,10 @@
 
 -- --             
 	-- BEGIN;
-	SET TRANSACTION NAME 'trans_1'; 
+	COMMIT;
+SET SERVEROUTPUT ON
+SET TRANSACTION ISOLATION LEVEL READ COMMITTED;
+ 
 	-- SELECT -
 	select to_char(sysdate, 'HH24:MI:SS'),name from trans_test where id = 1; 
 	-- 5 s

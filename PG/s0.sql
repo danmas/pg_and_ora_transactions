@@ -13,6 +13,15 @@ insert into trans_test values (7, 'V_1',1);
 insert into trans_test values (8, 'V_1',1);
 insert into trans_test values (9, 'V_1',1);
 insert into trans_test values (10, 'V_1',1);
+
+create or replace function long_test(p_sleep_time_s int) returns int 
+as $$
+declare
+begin
+	perform pg_sleep(p_sleep_time_s);
+    return 1;
+end
+$$ language plpgsql; 
  
 	-- --             
 	
